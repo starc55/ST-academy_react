@@ -1,0 +1,260 @@
+export const testdata = [
+  {
+    question: "What does HTML stand for?",
+    option1: "Hyper Text Markup Language",
+    option2: "Hyperlinks and Text Markup Language",
+    option3: "Home Tool Markup Language",
+    option4: "None of the above",
+    ans: 1,
+  },
+  {
+    question: "Which of the following is correct about CSS?",
+    option1:
+      "CSS is used to control the style and layout of multiple Web pages all at once",
+    option2: "CSS can only be used with HTML",
+    option3: "CSS is used to design the structure of Web pages",
+    option4: "None of the above",
+    ans: 1,
+  },
+  {
+    question: "Which property is used to change the background color?",
+    option1: "bgcolor",
+    option2: "color",
+    option3: "background-color",
+    option4: "All of the above",
+    ans: 3,
+  },
+  {
+    question: "What does JS stand for?",
+    option1: "Java Source",
+    option2: "JavaScript",
+    option3: "JSON Script",
+    option4: "None of the above",
+    ans: 2,
+  },
+  {
+    question:
+      "Which method in JavaScript is used to remove the whitespace at the beginning and end of any string?",
+    option1: "strip()",
+    option2: "trim()",
+    option3: "clean()",
+    option4: "trimWhitespace()",
+    ans: 2,
+  },
+  {
+    question:
+      "What will be the output of the following JavaScript code?\n\n```\nconsole.log(2 + '2');\n```",
+    option1: "22",
+    option2: "4",
+    option3: "NaN",
+    option4: "TypeError",
+    ans: 1,
+  },
+  {
+    question: "Which of the following is NOT a valid CSS property?",
+    option1: "margin-right",
+    option2: "font-family",
+    option3: "text-style",
+    option4: "background-position",
+    ans: 3,
+  },
+  {
+    question: "In React, props are __________?",
+    option1: "Methods",
+    option2: "Variables",
+    option3: "Objects",
+    option4: "Components",
+    ans: 3,
+  },
+  {
+    question:
+      "Which lifecycle method is called once, immediately after the initial rendering occurs?",
+    option1: "componentDidUpdate",
+    option2: "componentDidMount",
+    option3: "componentWillUnmount",
+    option4: "render",
+    ans: 2,
+  },
+  {
+    question: "Which CSS property is used to set the size of the text?",
+    option1: "font-style",
+    option2: "font-size",
+    option3: "text-size",
+    option4: "text-style",
+    ans: 2,
+  },
+  {
+    question: "What does the 'C' in CSS stand for?",
+    option1: "Cascade",
+    option2: "Cascading",
+    option3: "Cascaded",
+    option4: "None of the above",
+    ans: 2,
+  },
+  {
+    question:
+      "Which HTML tag is used to define an unordered list that is bulleted?",
+    option1: "<ul>",
+    option2: "<ol>",
+    option3: "<li>",
+    option4: "<list>",
+    ans: 1,
+  },
+  {
+    question:
+      "What does the following CSS selector target?\n\n```\n.main > p\n```",
+    option1: "All paragraphs inside elements with class 'main'",
+    option2: "All paragraphs immediately inside elements with class 'main'",
+    option3: "All 'p' elements inside elements with class 'main'",
+    option4: "None of the above",
+    ans: 2,
+  },
+  {
+    question:
+      "What is the correct way to add an external JavaScript file to your HTML?",
+    option1: "<script src='script.js'></script>",
+    option2: "<script href='script.js'></script>",
+    option3: "<script name='script.js'></script>",
+    option4: "<script link='script.js'></script>",
+    ans: 1,
+  },
+  {
+    question: "In React, which method is called after a component is rendered?",
+    option1: "componentWillUnmount",
+    option2: "componentDidMount",
+    option3: "componentDidUpdate",
+    option4: "render",
+    ans: 2,
+  },
+  {
+    question: "What does the 'R' in CSS stand for?",
+    option1: "Representation",
+    option2: "Relationship",
+    option3: "Rule",
+    option4: "None of the above",
+    ans: 3,
+  },
+  {
+    question:
+      "Which CSS property is used to change the text color of an element?",
+    option1: "text-color",
+    option2: "color",
+    option3: "text-style",
+    option4: "font-color",
+    ans: 2,
+  },
+  {
+    question:
+      "What is the correct way to select an element with id 'myElement' using CSS?",
+    option1: "#myElement",
+    option2: ".myElement",
+    option3: "element.myElement",
+    option4: "None of the above",
+    ans: 1,
+  },
+  {
+    question:
+      "Which operator is used to assign a value to a variable in JavaScript?",
+    option1: "=>",
+    option2: "=",
+    option3: "==",
+    option4: ":=",
+    ans: 2,
+  },
+  {
+    question:
+      "Which of the following is a correct way to comment in JavaScript?",
+    option1: "// This is a comment",
+    option2: "<!-- This is a comment -->",
+    option3: "/* This is a comment */",
+    option4: "All of the above",
+    ans: 1,
+  },
+  {
+    question:
+      "Which HTML tag is used to define a hyperlink, or link to another page?",
+    option1: "<a>",
+    option2: "<link>",
+    option3: "<href>",
+    option4: "<url>",
+    ans: 1,
+  },
+  {
+    question: "In React, how do you pass data to a component?",
+    option1: "Using props",
+    option2: "Using state",
+    option3: "Using render method",
+    option4: "Using JSX",
+    ans: 1,
+  },
+  {
+    question:
+      "Which CSS property is used to set the space between the elements?",
+    option1: "spacing",
+    option2: "margin",
+    option3: "padding",
+    option4: "gap",
+    ans: 4,
+  },
+  {
+    question:
+      "What is the correct way to write a conditional statement in JavaScript?",
+    option1: "if (x == 5) {}",
+    option2: "if x = 5 then {}",
+    option3: "if {x = 5} then {}",
+    option4: "if x == 5 then {}",
+    ans: 1,
+  },
+  {
+    question: "Which HTML tag is used to define a table row?",
+    option1: "<tr>",
+    option2: "<td>",
+    option3: "<table-row>",
+    option4: "<th>",
+    ans: 1,
+  },
+  {
+    question:
+      "What does the following CSS selector target?\n\n```\na[class^='button']\n```",
+    option1: "All 'a' elements with class starting with 'button'",
+    option2: "All 'a' elements inside elements with class 'button'",
+    option3: "All 'a' elements with class ending with 'button'",
+    option4: "None of the above",
+    ans: 1,
+  },
+  {
+    question:
+      "What is the correct way to apply an external CSS file to your HTML?",
+    option1: "<link rel='stylesheet' href='styles.css'>",
+    option2: "<style src='styles.css'></style>",
+    option3: "<link href='styles.css'>",
+    option4: "<style link='styles.css'></style>",
+    ans: 1,
+  },
+  {
+    question:
+      "Which method in JavaScript is used to add new items to the end of an array?",
+    option1: "push()",
+    option2: "add()",
+    option3: "append()",
+    option4: "insert()",
+    ans: 1,
+  },
+  {
+    question:
+      "In CSS, which property is used to control the space between elements inside the container?",
+    option1: "spacing",
+    option2: "margin",
+    option3: "padding",
+    option4: "gap",
+    ans: 3,
+  },
+  {
+    question: "What does the 'J' in JSON stand for?",
+    option1: "JavaScript",
+    option2: "Java",
+    option3: "Joomla",
+    option4: "Jupiter",
+    ans: 1,
+  }
+];
